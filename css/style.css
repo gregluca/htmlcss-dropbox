@@ -140,16 +140,20 @@ i {
 .second-section {
     display: flex;
     justify-content: center;
+    margin-top: 130px;
 }
 .box-left {
-    border: 1px solid black;
-    height: 200px;
     width: 70%;
 }
 .box-right {
-    border: 1px solid black;
-    height: 200px;
+    padding: 20px;
     width: 30%;
+    line-height: 30px;
+}
+.btn-grey {
+    background: none;
+    border: 1px solid lightgray;
+    padding: 10px;
 }
 .container .card {
     width: calc (100% / 3);
