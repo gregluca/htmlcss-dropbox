@@ -23,7 +23,6 @@ h1 {
     font-size: 3rem;
     padding-top: 50px;
 }
-
 .header {
     height: 80px;
     width: 100%;
@@ -140,7 +139,7 @@ i {
 .second-section {
     display: flex;
     justify-content: center;
-    margin-top: 130px;
+    margin-top: 120px;
 }
 .box-left {
     width: 70%;
@@ -155,19 +154,28 @@ i {
     border: 1px solid lightgray;
     padding: 10px;
 }
-.container .card {
-    width: calc (100% / 3);
+.section-box {
+    margin-top: 100px;
+    display: flex;
     flex-wrap: wrap;
 }
- .card .col {
-    height: 200px;
+.content {
+    display: flex;
     flex-wrap: wrap;
+}
+.colu {
+    width: calc(100% / 3 ) ;
+    padding: 30px;
+}
+.colu p {
+    padding: 20px 0px;
+    font-size: 0.8rem;
 }
 .link {
     width: 100%;
     border: 1px solid black;
     height: 200px;
-    background-color: aqua;
+    background-color: red;
 }
 .container-cube {
     width: calc (100% / 3);
