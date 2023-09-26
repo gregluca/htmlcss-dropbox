@@ -31,6 +31,10 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    top: 0;
 }
 .head-left {
     display: flex;
@@ -58,6 +62,7 @@ h1 {
     border-bottom: 1px solid black;
 }
 .big-wrapper {  
+    margin-top: 80px;
     width: 100%;
     background-color: rgb(180 208 231);
 }
@@ -71,7 +76,7 @@ h1 {
 .radio-btn  {
     display: flex;
     padding: 30px 0px;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 45%;
 }
 .hero {
@@ -141,10 +146,6 @@ a {
 .col-right {
     width: 30%;
 }
-.column .col {
-    height: 200px;
-    border: 1px solid black;
-}
 .second-section {
     display: flex;
     justify-content: center;
@@ -199,9 +200,10 @@ a {
 }
 .square-inside {
     background-color: whitesmoke;
+    overflow: scroll;
 }
 #ph {
-    padding: 50px;
+    padding: 10px;
 }
 .mini-sqr {
     width: 50%;
