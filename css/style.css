@@ -17,6 +17,9 @@ img {
     text-decoration: none;
     text-align: center;
 }
+.btn:hover {
+    opacity: .6;
+}
 h1 {
     width: 80%;
     margin: 0 auto;
@@ -44,11 +47,20 @@ h1 {
 .flex li {
     padding: 15px;
 }
+.flex a{
+    color: gray;
+    text-decoration: none;
+}
+.flex .btn {
+    color: white;
+}
+.flex li:hover {
+    border-bottom: 1px solid black;
+}
 .big-wrapper {  
     width: 100%;
     background-color: lightblue;
 }
-
 .small-wrapper {
     width: 80%;
     margin: 0 auto;
@@ -109,9 +121,7 @@ h4 {
 a {
     color: blue;
 }
-i {
-    color: blue;
-}
+
 .column {
     margin-top: 50px;
     width: 100%;
@@ -234,4 +244,37 @@ i {
 .coll {
     border-bottom: 1px solid black;
     padding: 30px;
+}
+.big-wrapper .footer {
+    background-color: black;
+}
+.rowe {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px;
+}
+.colls {
+    width: 100%;
+    color: white;
+    line-height: 40px;
+}
+.colls ul {
+    list-style-type: none;
+}
+.colls a {
+    color: white;
+    text-decoration: none;
+}
+.colls h3 {
+    padding-bottom: 30px;
+}
+.rowe p {
+    width: 100px;
+    border-top: 1px solid gray;
+    padding-top: 30px;
+}
+.rowe a {
+    color: white;
+    text-decoration: none;
 }
