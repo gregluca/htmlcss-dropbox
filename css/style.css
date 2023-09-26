@@ -18,7 +18,7 @@ img {
     text-align: center;
 }
 h1 {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     font-size: 3rem;
     padding-top: 50px;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .small-wrapper {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 .section-plan {
@@ -75,12 +75,11 @@ h1 {
     line-height: 100px;
 }
 .right {
-    width: 40%;
+    width: 50%;
 }
 .container {
     display: flex;
     justify-content: center;
-    height: 1000px;
     gap: 30px;
 }
 .col {
@@ -123,7 +122,7 @@ i {
     padding: 20px;
 }
 .col-left {
-    width: 70%;
+    width: 80%;
     justify-content: center;
 }
 .col-left h4 {
@@ -142,16 +141,20 @@ i {
     margin-top: 120px;
 }
 .box-left {
-    width: 70%;
+    width: 60%;
 }
 .box-right {
-    padding: 20px;
-    width: 30%;
+    padding: 30px 40px;
+    width: 40%;
     line-height: 30px;
+}
+.box-right p {
+    margin-top: 20px;
 }
 .btn-grey {
     background: none;
     border: 1px solid lightgray;
+    margin-top: 30px;
     padding: 10px;
 }
 .section-box {
@@ -165,44 +168,70 @@ i {
 }
 .colu {
     width: calc(100% / 3 ) ;
-    padding: 30px;
+    padding: 20px;
 }
 .colu p {
-    padding: 20px 0px;
-    font-size: 0.8rem;
+    padding: 10px 0px;
 }
 .link {
-    width: 100%;
-    border: 1px solid black;
-    height: 200px;
-    background-color: red;
+    width: 60%;
+    padding: 50px 20px;
+    margin: 50px 0px;
 }
 .container-cube {
+    border: 1px solid black;
+    width: 100%;
     width: calc (100% / 3);
     display: flex;
+    position: relative;
 }
-.container-cube .col {
+.square {
     height: 500px;
+    width: 100%;
+    width: calc (100% / 3 );
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
 }
-.box-center {
-    height: 500px;
+.mini-sqr {
+    height: 50%;
+    width: 50%;
+    width: calc (100% / 2);
     border: 1px solid black;
 }
-.footer-conteiner {
-    background-color: black;
+.green {
+    background-color: lightgreen;
 }
-.footer {
-    width: 80%;
-    margin: 0 auto;
+.action {
+    padding: 100px;
 }
-.box-footer {
-    height: 300px;
-    border: 1px solid white;
-    color: white;
- 
+.action-l {
+    width: 50%;
 }
-.bottom-footer {
-    height: 100px;
-    border: 1px solid white;
-    color: white;
+.action-l h2 {
+    color: #61082b;
+}
+.action-r {
+    width: 30%;
+}
+.action-r .btn {
+    background-color: white;
+    border: none;
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+.action .small-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question {
+    padding: 80px;
+    background-color: white;
+}
+.coll {
+    border-bottom: 1px solid black;
+    padding: 30px;
 }
