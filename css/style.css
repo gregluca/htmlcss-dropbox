@@ -209,56 +209,38 @@ a {
     width: 50%;
     aspect-ratio: 1/1;
 }
-.green {
-    background-color: #a2d39b;
+.mini-sqr {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.green {
+    background-color: #a2d39b;
 }
 .violet {
     background-color: #62092b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .blue {
     background-color: #0093ce;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .orange {
     background-color: #ff1d1c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .red {
     background-color: #d50020;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 } 
 .lightblue {
     background-color: #b4d0e7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .darkblue {
     background-color: #0d2481;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .yellow {
     background-color:#ffd830 ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .img-sqr {
     width: 120px;
+    filter: invert(1);
 }
 .action {
     padding: 100px;
