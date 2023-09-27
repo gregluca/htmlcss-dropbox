@@ -18,7 +18,7 @@ img {
     text-align: center;
 }
 .btn:hover {
-    opacity: .6;
+    filter: brightness(2);
 }
 h1 {
     width: 80%;
@@ -75,9 +75,9 @@ h1 {
 }
 .radio-btn  {
     display: flex;
-    padding: 30px 0px;
     justify-content: space-around;
-    width: 45%;
+    width: 50%;
+    padding: 30px;
 }
 .hero {
     display: flex;
@@ -90,6 +90,10 @@ h1 {
 }
 .left .btn  {
     line-height: 100px;
+}
+.left i {
+    padding-top: 20px;
+    font-size: 4rem;
 }
 .right {
     width: 50%;
@@ -115,6 +119,9 @@ h1 {
 .list ul {
     padding-top: 20px;
     list-style-type:  none;
+}
+li i {
+    color: blue;
 }
 .list .btn {
     margin-top: 40px;
